@@ -41,7 +41,14 @@ https://create.roblox.com/docs/cloud/open-cloud/usage-data-stores
 In particular, use: 
 
 universe-datastores
-- create, list, read, update, delete
+- create
+- list
+- read
+- update
+- delete
+
 ordered_datastores:
-- read, write
+- read
+- write
+
 security - IP address: 0.0.0.0/0
