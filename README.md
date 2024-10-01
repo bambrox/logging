@@ -11,8 +11,9 @@ Copy these 3 lua files into 'ReplicatedFirst' as ModuleScripts:
 
 Then, add this line to least one server script:
 
+```
 local Logging = require(ReplicatedFirst.Logging)
-
+```
 
 By default this will log:
  - X.Y.Z position for every player once per second.
