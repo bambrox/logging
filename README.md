@@ -22,15 +22,21 @@ By default this will log:
 
 If you want to log other things from anywhere in your code, use lines of code like this:
 
+```
 Logging.log("name_of_logging_event", player_name_if_you_call_this_from_a_server_script, anything_else, you, like)
+```
 
 For example:
 
+```
 Logging.log("finished_level", player.Name, level, time_it_took_to_finish_level)
+```
 
 From a client script, you don't need the player name, that will be added automatically, so just:
 
+```
 Logging.log("finished_level", level, time_it_took_to_finish_level)
+```
 
 If Bambros agree to manage your data and insights, then you'll need to give them an API key. 
 
